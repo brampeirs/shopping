@@ -7,14 +7,9 @@ import { Recipe } from './recipe.model';
   styleUrls: ['./recipes.component.scss']
 })
 export class RecipesComponent implements OnInit {
-  public selectedRecipe: Recipe;
   constructor() { }
 
   ngOnInit() {
   }
 
-  onRecipeSelected(selectedRecipe) {
-    console.log('selected recipe', selectedRecipe);
-    this.selectedRecipe = selectedRecipe;
-  }
 }
